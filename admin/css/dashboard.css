@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.fix {
+	/*overflow: hidden;*/
+	/*display: block;*/
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+.h_wrap {
+	background: #a169c5;
+	height: 125px;
+	display: block;
+	overflow: hidden;
+}
+
+.h_wrap a img {
+	width: 120px;
+	height: 100px;
+	margin-left: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	opacity: 100%;
+}
+
+.h_wrap a img:hover {
+	opacity: 65%;
+}
+
+.menu {
+	/*height: 30px;*/
+	background: #4e4e4e;
+	overflow: hidden;
+	display: block;
+	border-bottom: 5px solid #4e4e;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.menu ul li {
+	float: left;
+	border-left: 1px solid #202020;
+	border-right: 1px solid #271c1c;
+}
+
+.menu ul li:first-child {
+	border-left: none;
+}
+
+.menu ul li:last-child {
+	border-right: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	padding: 12px 15px;
+	text-decoration: none;
+	padding: 12px 15px;
+	overflow: hidden;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+	background: #4e4e;
+	transition: ease all 1s;
+}
+
+.c_wrapper {
+	margin-top: 50px;
+	display: block;
+	overflow: hidden;
+}
+
+.Sidebar {
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+}
+
+.Sidebar h2 {
+	font-family: arial;
+	color: #3e3e3e;
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+.Sidebar ul {
+	list-style-type: none;
+}
+
+.Sidebar ul li {
+	border-bottom: 3px solid rgb(47, 50, 218);
+}
+
+.Sidebar ul li:last-child {
+	border-bottom: none;
+}
+
+.Sidebar ul li a {
+	text-decoration: none;
+	padding: 8px 15px;
+	display: block;
+	color: #fff;
+	background: #3e3e3e;
+	text-transform: uppercase;
+}
+
+.Sidebar ul a:hover {
+	background: #4e4e;
+	transition: ease all 1s;
+}
+
+.content {
+	width: 600px;
+	float: right;
+	margin-right: 25px;
+}
+
+
+.content h4 a {
+	text-decoration: none;
+	font-family: arial;
+	font-size: 30px;
+	color: #4e4e4e;
+	margin-bottom: 10px;
+}
+
+.content img {
+	width: 570px;
+	height: 550px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.content p {
+	width: 600px;
+	font-family: arial;
+	font-size: 18px;
+	color: #3e3e3e;
+	text-align: justify;
+}
+
+.content p a {
+	text-decoration: none;
+	color: red;
+}
+
+.content_wrap {
+	margin-top: 30px;
+}
+
+.content_wrap h2 a {
+	color: #3e3e3e;
+	font-size: 30px;
+	font-family: arial;
+	text-decoration: none;
+}
+
+.content_wrap .section_wrap {
+	display: block;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+.content_wrap .section_wrap img {
+	width: 550px;
+	float: left;
+}
+
+.content_wrap .section_wrap p {
+	width: 350px;
+	float: right;
+	margin-right: 30px;
+	font-family: arial;
+	font-size: 18px;
+	color: #3e3e3e;
+	text-align: justify;
+}
+
+.content_wrap .section_wrap p a {
+	text-decoration: none;
+	color: red;
+}
+
+.content_wrap .account h2{
+	text-align: center;
+	font-size: 50px;
+	color: #524949;
+	display: block;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+
+/* form css sign in */
+.form_wrapper .form_wrap form input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.form_wrapper .form_wrap form input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.form_wrapper .form_wrap form input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.form_wrapper{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.sing_in_head h2 , .sing_up_head h2 {
+	border-radius: 5px;
+	background-color: #dedede;
+	padding: 20px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	color: #544444;
+}
+
+.form_wrapper h2{
+	font-size: 26px;
+	padding-top: 14px;
+	padding-bottom: 20px;
+}
+
+.footer_wrap {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 100px;
+	background-color: #4e4e4e;
+}
+
+
+
+.footer_wrap p {
+	text-align: center;
+	color: #fff;
+	font-family: arial;
+	font-size: 22px;
+	font-weight: 700;
+	padding-top: 40px;
+}
+
+.footer_wrap p a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	opacity: 100%;
+}
+
+.footer_wrap p a:hover {
+	opacity: 60%;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+.admin nav {
+	float: left;
+	width: 280px;
+	height: 300px; /* only for demonstration, should be removed */
+	background: #ccc;
+	padding: 20px;
+}
+
+/* Style the list inside the menu */
+.admin nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+.admin nav ul li a {
+	text-decoration: none;
+	color: #4e4e4e;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.admin nav ul li {
+	padding: 10px;
+	background-color: #bdbdbd;
+	margin-bottom: 2px;
+}
+.admin nav ul li:last-child{
+	margin-bottom: 0px;
+}
+
+
+.admin article {
+	float: left;
+	padding: 20px;
+	width: 600px;
+	background-color: #f1f1f1;
+	height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+.admin section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/**/
+
+
+
+/**/
+
